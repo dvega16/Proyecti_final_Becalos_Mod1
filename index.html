@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GOURMADE REPOSTERIA</title>
 </head>
 <body>
-    <h1>Mi primera página web</h1>
+    <header>
+        <h1>GOURMADE: REPOSTERÍA CASERA DE AUTOR</h1>
+        <img src="Recetas/Imagenes/Gourmade.jfif" alt="Logo de Gourmade" width="300">
+    </header>
+    <section>
+        <h3>Bienvenidos a GOURMADE</h3>
+            <p>Esta página muestra mis recetas de autor, para los mejores pasteles, también hago pedidos y me gusta compartir mis creaciones, aquí podrás encontrar un poco de todo.</p>
+    </section>
+
+    <section>
+        <h2>Mis recetas más pedidas:</h2>
+        <ul>
+            <li><a href="Recetas/macarrones.html">Macarrones Franceses</a></li>
+            <li><a href="Recetas/pan de muerto.html">Pan de Muerto</a></li>
+            <li><a href="Recetas/pastel de 3 leches.html">Pastel de 3 Leches</a></li>
+            <li><a href="Recetas/pastel de chocolate.html">Pastel de chocolate</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Ideas para Postres</h2>
+        <p>¿Tienes alguna idea para un postre o quieres hacer un pedido especial? ¡Compártelo con GOURMADE!</p>
+        <!-- Formulario para enviar ideas de postres -->
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="idea">Idea para Postre:</label><br>
+            <textarea id="idea" name="idea" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>Sigue mis creaciones en mis redes sociales:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/gourmade_reposteria/profilecard/?igsh=ZGVuMXE5aGdmdzMy">Instagram</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
